@@ -1,0 +1,9 @@
+# Keep the build context small
+.git
+.venv
+__pycache__
+*.pyc
+
+# Ignore log dumps from local debugging
+*.txt
+*.log
